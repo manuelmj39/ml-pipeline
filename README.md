@@ -6,7 +6,7 @@ Initial setup to do:
 1. Set up Github repo
 
    
-	a. New Environment —> in VS CODE itself (inside project folder)
+	a. New Environment —> in VS CODE itself (inside the project folder)
 
 	b. setup.py
 
