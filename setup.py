@@ -26,10 +26,9 @@ def get_requirements(file_path: str) -> list[str]:
         if HYPEN_E_DOT in requirements:
             requirements.remove(HYPEN_E_DOT)
 
-    print("REQ")
-
     return requirements
-        
+
+ #Build Package       
 setup(name=PRJT_NAME, 
       version=VERSION, 
       author=AUTHOR, 
