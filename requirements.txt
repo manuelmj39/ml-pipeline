@@ -3,6 +3,7 @@ numpy<2
 matplotlib
 seaborn
 scikit-learn
+pyyaml
 catboost
 xgboost
-# -e .
+-e .

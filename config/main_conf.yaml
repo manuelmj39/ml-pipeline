@@ -1,0 +1,3 @@
+data:
+  raw_bronze: artifact/data/StudentsPerformance.csv
+  raw_silver: artifact/data/raw/StudentsPerformance.csv
