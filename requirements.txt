@@ -6,4 +6,4 @@ scikit-learn
 pyyaml
 catboost
 xgboost
--e .
+# -e .
