@@ -42,7 +42,5 @@ class DataIngestion:
             logging.info(e)
             raise CustomException(e, sys)
         
-if __name__=="__main__":
-    obj = DataIngestion()
-    obj.initiate_data_ingestion()
-
+data_ingest_obj = DataIngestion()
+data_ingest_obj.initiate_data_ingestion()
