@@ -41,6 +41,6 @@ class DataIngestion:
         except Exception as e:
             logging.info(e)
             raise CustomException(e, sys)
-        
+
 data_ingest_obj = DataIngestion()
 data_ingest_obj.initiate_data_ingestion()
