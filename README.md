@@ -13,6 +13,7 @@ Initial setup to do:
 2. Create src folder and build the package.
 
 3. Project Structure, Logging, Exceptions
+   
 	a. create src -> components
 
 	b. add necessary modules to src -> components
@@ -21,7 +22,8 @@ Initial setup to do:
 
 	d. Add src -> logger.py, exception.py, utils.py
 
-4. Add the components required
+5. Add the components required
+   
 	a. Add Data Ingestion.py
 
 	b. Add Data Transformation.py
