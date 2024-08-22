@@ -1,5 +1,7 @@
 import os
 import sys
+sys.path.append(r"D:\Training\ml-pipeline")
+
 import yaml
 
 import pandas as pd
@@ -41,6 +43,6 @@ class DataIngestion:
         except Exception as e:
             logging.info(e)
             raise CustomException(e, sys)
-        
+
 data_ingest_obj = DataIngestion()
 data_ingest_obj.initiate_data_ingestion()
