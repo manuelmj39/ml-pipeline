@@ -17,7 +17,7 @@ from src.logger import logging
 CONFIG_PATH = "config/"
 
 # Function to load yaml configuration file
-def load_config(config_name):
+def load_config(config_name: str) -> dict:
     """
     Load configuration file
 
