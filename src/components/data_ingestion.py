@@ -1,4 +1,7 @@
-"""This Module consists of Data Ingestion Pipeline"""
+"""
+This Module consists of Data Ingestion Pipeline
+"""
+
 import os
 import sys
 
