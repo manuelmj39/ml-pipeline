@@ -6,4 +6,8 @@ scikit-learn
 pyyaml
 catboost
 xgboost
+flake8
+black
+interrogate
+pre-commit
 # -e .
