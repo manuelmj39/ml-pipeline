@@ -1,5 +1,7 @@
 import os
 import sys
+sys.path.append(r"D:\Training\ml-pipeline")
+
 import yaml
 
 import pandas as pd

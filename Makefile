@@ -5,5 +5,5 @@ install_reqs:
 
 data_ingestion: 
 	@echo "Starting Data Ingestion Process"
-	python src/components/data_ingestion.py
+	@python src/components/data_ingestion.py
 	@echo "Completed Data Ingestion"
