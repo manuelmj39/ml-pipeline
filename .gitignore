@@ -129,7 +129,7 @@ ml-venv/
 ENV/
 env.bak/
 venv.bak/
-my-venv
+my-venv/
 ml-pipeline-env/
 
 # Spyder project settings
