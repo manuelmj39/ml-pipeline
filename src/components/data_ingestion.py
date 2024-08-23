@@ -2,45 +2,17 @@
 This Module consists of Data Ingestion Pipeline
 """
 
-import os
 import sys
 
 sys.path.append(r"D:\Training\ml-pipeline")
 
 import pandas as pd
-import yaml
 
 from src.exception import CustomException
 from src.logger import logging
+from src.utils import load_config
 
-# folder to load config file
-CONFIG_PATH = "config/"
-
-# Function to load yaml configuration file
-def load_config(config_name: str) -> dict:
-    """
-    Load configuration file
-
-    This function load the configuration file which
-    consists of all the paths, and other miscellaneous
-    contents.
-
-    Parameters
-    ----------
-        config_path: str
-            Path to the configuration file
-
-    Returns
-    -------
-        dict
-            Dictionary of configurations
-    """
-    with open(os.path.join(CONFIG_PATH, config_name)) as config_file:
-        config = yaml.safe_load(config_file)
-
-    return config
-
-
+# Loading Configuration Settings
 config = load_config(config_name="main_conf.yaml")
 
 
@@ -78,7 +50,7 @@ class DataIngestion:
             df = pd.read_csv(self.raw_bronze_data_path)
             logging.info("Loaded the CSV File")
 
-            df.to_csv(self.raw_silver_data_path, index=False, header=True)
+            df.to_csv(self.raw_silver_data_path, index=False)
 
             logging.info("Completed Ingestion Process")
 

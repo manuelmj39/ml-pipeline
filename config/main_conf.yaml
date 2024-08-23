@@ -1,3 +1,6 @@
 data:
   raw_bronze: artifact/data/StudentsPerformance.csv
   raw_silver: artifact/data/raw/StudentsPerformance.csv
+
+preprocessor:
+  column_preprocessor_pipe: artifact/preprocessor/column_preprocessor_pipeline.pkl
