@@ -22,8 +22,11 @@ Initial setup to do:
 
 	d. Add src -> logger.py, exception.py, utils.py
 
-5. Add the components required
+4. Create Makefile for Automating.
+   
+6. Add the components required
    
 	a. Add Data Ingestion.py
 
 	b. Add Data Transformation.py
+
